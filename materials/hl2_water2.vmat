@@ -2,7 +2,7 @@
 
 Layer0
 {
-	shader "vr_tarps.vfx"
+	shader "tarps.vfx"
 
 	//---- Rendering ----
 	F_DO_NOT_CAST_SHADOWS 1

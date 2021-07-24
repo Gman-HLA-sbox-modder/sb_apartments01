@@ -1,4 +1,4 @@
-<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
 {
 	rootNode = 
 	{
@@ -15,7 +15,7 @@
 						[
 							{
 								from = "dark yellow.vmat"
-								to = "textures/darkyellow.vmat"
+								to = "materials/keytex02.vmat"
 							},
 							{
 								from = "key white.vmat"
@@ -23,7 +23,7 @@
 							},
 							{
 								from = "yellow but gold.vmat"
-								to = "textures/yellow.vmat"
+								to = "materials/keytex02.vmat"
 							},
 						]
 						use_global_default = false
@@ -39,7 +39,13 @@
 						_class = "RenderMeshFile"
 						name = "gamerkey"
 						filename = "models/modelsrc/gamerkey.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
 						import_filter = 
 						{
 							exclude_by_default = false
@@ -82,6 +88,10 @@
 							"dmg.fire" = -1.0
 							health = -1.0
 							spawn_motion_disabled = false
+							min_impact_damage_speed = -1.0
+							impact_damage = -1.0
+							parent_bodygroup_name = ""
+							parent_bodygroup_value = 0
 						}
 					},
 				]
