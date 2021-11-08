@@ -113,7 +113,7 @@
 					{
 						_class = "RenderMeshFile"
 						filename = "models/kart_parts/body/test_body.fbx"
-						import_translation = [ 0.0, 0.0, 18.0 ]
+						import_translation = [ 0.0, 0.0, 10.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.2
 						align_origin_x_type = "None"

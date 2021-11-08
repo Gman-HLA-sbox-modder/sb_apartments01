@@ -67,6 +67,9 @@
 						recenter_on_parent_bone = false
 						offset_origin = [ 0.0, 0.0, 0.0 ]
 						offset_angles = [ 0.0, 0.0, 0.0 ]
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
 						filename = "models/dmx/mesh/tiny_flatgrass.dmx"
 						import_scale = 1.0
 						faceMergeAngle = 8.28
@@ -91,11 +94,11 @@
 						[
 							{
 								from = "materials/blend/concrete_3_to_dirt_03.vmat"
-								to = "materials/graws.vmat"
+								to = "materials/concrete_d_bld.vmat"
 							},
 							{
 								from = "materials/architecture/bricks_hs_1.vmat"
-								to = "models/rust_structures/fences_walls/brick_wall_b.vmat"
+								to = "materials/generic/wall_brick_new.vmat"
 							},
 						]
 						use_global_default = false
